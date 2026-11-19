@@ -1,0 +1,5 @@
+{"name":"study-rotation","version":"1.0.0","description":"Study rotation scheduler","main":"electron/main.js","author":"Study Rotation",
+"scripts":{"test":"node tests/engine.test.js","desktop":"electron .","dist":"electron-builder --publish never"},
+"dependencies":{"@capacitor/android":"6.2.0","@capacitor/core":"6.2.0"},
+"devDependencies":{"@capacitor/cli":"6.2.0","electron":"33.2.0","electron-builder":"25.1.8"},
+"build":{"appId":"com.studyrotation.app","productName":"Study Rotation","files":["electron/**","www/**"],"win":{"target":"nsis"},"linux":{"target":"AppImage","category":"Education"},"mac":{"target":"dmg","category":"public.app-category.education"}}}
